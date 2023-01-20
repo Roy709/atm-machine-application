@@ -1,0 +1,125 @@
+.title {
+    margin-bottom: 40px;
+  }
+  .formate-main {
+    width: 40%;
+    height: fit-content;
+    /* background-color: #90ee90; */
+    background-color: #90ee90d3;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
+    transition-delay: 2s;
+  }
+  .formate-body {
+    padding: 12px;
+    background-color: azure;
+    border-radius: 8px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .input-field input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* color: white; */
+    font-size: 18px;
+  }
+  
+  .input-field input[type="number"]:focus {
+    border: 3px solid #90ee90;
+  }
+  .ivalid-amount-popup {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 23%;
+    background-color: rgba(204, 204, 204, 0.7);
+    font-size: 18px;
+  }
+  .ivalid-amount-popup-body {
+    color: red;
+  }
+  
+  .buttons {
+    appearance: none;
+    background-color: #fafbfc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+      rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+  
+  .buttons:hover {
+    background-color: #f3f4f6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+  }
+  
+  .buttons:disabled {
+    background-color: #fafbfc;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959da5;
+    cursor: default;
+  }
+  
+  .buttons:active {
+    background-color: #edeff2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+  }
+  
+  .buttons:focus {
+    outline: 1px transparent;
+  }
+  
+  .buttons:before {
+    display: none;
+  }
+  
+  .buttons:-webkit-details-marker {
+    display: none;
+  }
+  .withdraw-message {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 23%;
+    background-color: #90ee90d3;
+  }
+  
